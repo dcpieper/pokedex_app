@@ -24,11 +24,15 @@ const PokemonsContainer = () => {
   }
 
   return (
-    <div>
-      <PokemonsList pokemons={pokemons} getPokemonData={getPokemonData}/>
-      <PokemonDetail selectedPokemon={selectedPokemon}/>
+    <div className="container">
+      <div className="left-content">
+        <PokemonDetail selectedPokemon={selectedPokemon} />
+      </div>
+      <div className="right-content">
+        <PokemonsList pokemons={pokemons} getPokemonData={getPokemonData} />
+      </div>
     </div>
-  )
+  );
 }
 
 export default PokemonsContainer

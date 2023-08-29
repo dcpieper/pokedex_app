@@ -8,8 +8,8 @@ const ListItem = ({name, getPokemonData, url}) => {
 
   return (
     <div>
-      <li>
-        <a onClick={handleClick}> 
+      <li className='pokemon-item'>
+        <a className='pokemon-link' onClick={handleClick}> 
           {name}
         </a>
       </li>

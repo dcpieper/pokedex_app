@@ -9,9 +9,9 @@ const PokemonsList = ({pokemons, getPokemonData}) => {
 
   return (
     <div>
-      {pokemonItems}
+      <ul className='pokemon-list'>{pokemonItems}</ul>
     </div>
-  )
+  );
 }
 
 export default PokemonsList
