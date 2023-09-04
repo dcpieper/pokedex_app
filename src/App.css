@@ -20,9 +20,9 @@ background-position-y: -500px;
 
 .right-content{
   width: 50%;
-  height: 50%;
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .pokemon-list{
@@ -31,8 +31,14 @@ background-position-y: -500px;
   text-transform: capitalize;
   text-align: center;
   grid-gap: 2rem;
-  padding-left: 350px;
+  padding-left: 435px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 550px;
+  height: 10%;
+
 }
+
 
 .pokemon-item{
   list-style: none;
