@@ -1,5 +1,5 @@
 .App{
-background-image: url("../public/pokedex.jpg");
+background-image: url("../public/pokedexupscaled.jpeg");
 background-repeat: no-repeat;
 background-size: 114rem;
 background-position-x: 39%;
@@ -9,7 +9,7 @@ background-position-y: -68%;
 .container{
   width: 90%;
   display: flex;
-  column-gap: 80px;
+  /* column-gap: 20%; */
 }
 
 .left-content{
@@ -19,7 +19,7 @@ background-position-y: -68%;
 }
 
 .right-content{
-  width: 26%;
+  width: 23.5%;
   display: flex;
   justify-content: center;
   margin-top: 4.5%;
@@ -45,8 +45,8 @@ background-position-y: -68%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75px;
-  height: 35px;
+  width: 45%;
+  height: 2.19rem;
   background-color: #54a3aa;
   border-radius: 15px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.5);
