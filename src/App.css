@@ -53,3 +53,12 @@ background-position-y: -68%;
   padding: 0 1.5rem;
 
 }
+
+.poke-pic{
+  height: 15%;
+  width: 85%;
+}
+.poke-pic-box{
+  margin-top: 15%;
+  margin-left: 23%
+}

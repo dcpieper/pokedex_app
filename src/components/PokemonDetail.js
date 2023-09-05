@@ -7,10 +7,11 @@ const PokemonDetail = ({selectedPokemon}) => {
   }
   
   return (
-    <div>
-      <img src={selectedPokemon.sprites.other["official-artwork"].front_default}/>
+    <div className='poke-pic-box'>
+      <img className="poke-pic" src={selectedPokemon.sprites.other["official-artwork"].front_default}
+      />
     </div>
-  )
+  );
 }
 
 export default PokemonDetail
